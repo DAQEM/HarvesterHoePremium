@@ -3,7 +3,6 @@ package me.daqem.harvesterhoepremium;
 import me.daqem.harvesterhoepremium.commands.MainCommand;
 import me.daqem.harvesterhoepremium.listeners.BlockBreakSugarcane;
 import me.daqem.harvesterhoepremium.listeners.InteractChangeMode;
-import me.daqem.harvesterhoepremium.utils.AdvancedLicense;
 import me.daqem.harvesterhoepremium.utils.Glow;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
@@ -28,8 +27,6 @@ public final class HarvesterHoePremium extends JavaPlugin {
         loadEvents();
         loadConfig();
         registerGlow();
-
-        if(!new AdvancedLicense(this.getConfig().getString("license-key"), "http://daqem.com/advancedlicense/verify.php", this).register()) return;
 
         if (!setupEconomy()) {
             System.out.println("[HarvesterHoePremium] Vault not found, shutting down HarvesterHoePremium.");

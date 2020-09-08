@@ -1,4 +1,3 @@
-license-key: 'LICENCE-KEY-HERE'
 price-per-cane: 1.00
 redirect-to-helpcommand-when-command-not-found: false
 use-permission-needed: false
