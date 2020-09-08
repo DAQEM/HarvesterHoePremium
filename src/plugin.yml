@@ -1,0 +1,8 @@
+name: HarvesterHoePremium
+version: 1.0
+main: me.daqem.harvesterhoepremium.HarvesterHoePremium
+authors: [DaqEm]
+description: Premium HarvesterHoe Plugin
+commands:
+  hh:
+    description: Harvesterhoe

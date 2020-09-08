@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Vault">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Servers/Server om 1.8.8 plugins te testen/plugins/Vault.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

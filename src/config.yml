@@ -1,0 +1,34 @@
+license-key: 'LICENCE-KEY-HERE'
+price-per-cane: 1.00
+redirect-to-helpcommand-when-command-not-found: false
+use-permission-needed: false
+multipliers-enabled: true
+mode: 'both' #Options: sell, collect, both.
+harvesterhoe:
+  item-name: '&b&lHarvester&3&lHoe'
+  item-lore:
+    - '&8Lore line 1'
+    - '&8Lore line 2'
+  multiplier-text-color: '&7'
+messages:
+  prefix: '&b&lHarvester&3&lHoe &b> '
+  reload: '&breloaded configuration file.'
+  player-not-online: '&c%player% &fis not online'
+  targetplayer-given-color: '&f' #DONT USE TEXT HERE, ONLY ONE COLOR!!! Example '&f' or '&f&l'
+  sender-given-color: '&f' #DONT USE TEXT HERE, ONLY ONE COLOR!!! Example '&f' or '&f&l'
+  no-permission-on-command: '&cYou do not have permission to execute this command.'
+  no-permission-on-use: '&cYou do not have permission to use a HarvesterHoe.'
+  command-not-found: '&cCommand not found'
+  inventory-full: '&cInventory full, item dropped on ground.'
+  collect-mode: '&fMode: Collect' # Shown when switching to collect mode (rightclicking a harvesterhoe)
+  sell-mode: '&fMode: Sell'# Shown when switching to sell mode (rightclicking a harvesterhoe)
+
+# RECOMMENDED VAULT VERSION: 1.7.2.
+
+# Permissions:
+
+# Use HarvesterHoe: harvesterhoepremium.use or harversterhoepremium.admin (When 'use-permission-needed' is set to true)
+# /hh reload: harvesterhoepremium.reload or harversterhoepremium.admin
+# /hh give: harvesterhoepremium.give or harversterhoepremium.admin
+# /hh help: harvesterhoepremium.help or harversterhoepremium.admin
+# everything noted above: harvesterhoepremium.*
